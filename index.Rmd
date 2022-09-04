@@ -111,7 +111,7 @@ About
 
 ### About
 
-**The Coronavirus Dashboard** 
+**The Boronavirus Dashboard** 
 
 This is a supporting dashboard for the [coronavirus](https://github.com/RamiKrispin/coronavirus) R package. It provides an overview of the 2019 Novel Coronavirus COVID-19 (2019-nCoV) epidemic. This dashboard is built with R using the [Rmakrdown](https://rmarkdown.rstudio.com/) using [flexdashboard](https://rmarkdown.rstudio.com/flexdashboard/) framework and can easily reproduce by others. The code behind the dashboard is available on this [repo](https://github.com/RamiKrispin/coronavirus_dashboard).
 
