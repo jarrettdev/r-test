@@ -33,7 +33,7 @@ df_cases_c <- df_cases2 %>%
   dplyr::group_by(date, continent_name) %>%
   dplyr::summarise(total = sum(value), .groups = "drop")
 
-# Smoothing outliers
+# Smoothing outliers 
 head(df_cases_c)
 table(is.na(df_cases_c$total))
 table(is.na(df_cases_c$continent_name))
@@ -111,7 +111,7 @@ About
 
 ### About
 
-**The Boronavirus Dashboard** 
+**The Coronavirus Dashboard** 
 
 This is a supporting dashboard for the [coronavirus](https://github.com/RamiKrispin/coronavirus) R package. It provides an overview of the 2019 Novel Coronavirus COVID-19 (2019-nCoV) epidemic. This dashboard is built with R using the [Rmakrdown](https://rmarkdown.rstudio.com/) using [flexdashboard](https://rmarkdown.rstudio.com/flexdashboard/) framework and can easily reproduce by others. The code behind the dashboard is available on this [repo](https://github.com/RamiKrispin/coronavirus_dashboard).
 
@@ -140,10 +140,4 @@ The dashboard was deployed to Github docs. If you wish to deploy and/or modify t
 
 For any question or feedback, you can either open an [issue](https://github.com/RamiKrispin/coronavirus_dashboard/issues) or contact me on [Twitter](https://twitter.com/Rami_Krispin).
 
-Coming Soon
-===================================== 
-
 ### Coming Soon
-**The Coronavirus Dashboard** 
-
-This is a support...
