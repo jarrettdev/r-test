@@ -264,4 +264,18 @@ plotly::plot_ly(
 )  %>%
   plotly::layout(margin = list(r = 0, l = 0, t = 0, b = 0))
 
+#plot frequent weeks
+
+plotly::plot_ly(
+  data = d,
+  type= "treemap",
+  values = ~ Followers,
+  labels= ~ date_0Dayofweek,
+  parents=  ~ parent,
+  domain = list(column=0),
+  #name = "Confirmed",
+  textinfo="label+value+percent parent"
+)  %>%
+  plotly::layout(margin = list(r = 0, l = 0, t = 0, b = 0))
+
 ```
